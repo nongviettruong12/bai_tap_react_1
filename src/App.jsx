@@ -3,6 +3,7 @@ import { ConditionalRendering } from './pages/ConditionalRendering'
 import { Example } from './pages/Example'
 import { PropsType } from './pages/PropsType'
 import { PropsDrilling } from './pages/PropsDrilling'
+import ContextExample from './pages/context'
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
               <Route path='/example2' Component={ConditionalRendering}/>
               <Route path='/example3' Component={PropsType}/>
               <Route path='/example4' Component={PropsDrilling}/>
+              <Route path='/example5' Component={ContextExample}/>
       </Routes>
     </>
   )
