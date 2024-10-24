@@ -1,5 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+
+
+
 export const PropsType = ({name, age}) => {
   return (
     <div>
@@ -9,10 +12,10 @@ export const PropsType = ({name, age}) => {
   )
 }
 PropsType.propTypes = {
-    name: PropTypes.string.isRequired,
-    age: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  age: PropTypes.number.isRequired,
 }
 PropsType.defaultProps = {
-    name: 'unknown',
-    age:0,
+  name: 'unknown',
+  age:0,
 }
