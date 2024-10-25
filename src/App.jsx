@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
-import { ConditionalRendering } from './pages/ConditionalRendering'
-import { Example } from './pages/Example'
-import { PropsType } from './pages/PropsType'
-import { PropsDrilling } from './pages/PropsDrilling'
-import ContextExample from './pages/Context'
-import ContextExam from './pages/ContextExample'
+import { ConditionalRendering } from './pages/user/ConditionalRendering'
+import { Example } from './pages/user/Example'
+import { PropsType } from './pages/user/PropsType'
+import { PropsDrilling } from './pages/user/PropsDrilling'
+import ContextExample from './pages/user/Context'
+import ContextExam from './pages/user/ContextExample'
 function App() {
   return (
     <>

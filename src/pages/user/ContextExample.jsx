@@ -1,7 +1,7 @@
 import React from "react";
-import ThemeProvider from "../context/ThemeProvider";
-import Header from "../components/Header";
-import ToggleButton from "../components/ToggleButton";
+import ThemeProvider from "../../context/ThemeProvider";
+import Header from "../../components/Header";
+import ToggleButton from "../../components/ToggleButton";
 
 const ContextExam = () =>{
     return (
