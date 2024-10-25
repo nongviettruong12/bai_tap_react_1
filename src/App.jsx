@@ -3,7 +3,7 @@ import { ConditionalRendering } from './pages/ConditionalRendering'
 import { Example } from './pages/Example'
 import { PropsType } from './pages/PropsType'
 import { PropsDrilling } from './pages/PropsDrilling'
-import ContextExample from './pages/context'
+import ContextExample from './pages/Context'
 import ContextExam from './pages/ContextExample'
 function App() {
   return (
