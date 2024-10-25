@@ -1,6 +1,6 @@
 import React, { useState, useContext, createContext, useEffect } from "react";
 
-const ThemeContext = createContext();
+const ThemeContext = createContext('');
 
 const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
@@ -8,6 +8,7 @@ const ThemeProvider = ({ children }) => {
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
+  
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
@@ -40,9 +41,9 @@ const ToggleButton = () => {
 const ContextExample = () => {
   return (
     <ThemeProvider>
-        <div className="p-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 min-h-screen">
-      <Header />
-      <ToggleButton />
+      <div className="p-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 min-h-screen">
+        <Header />
+        <ToggleButton />
       </div>
     </ThemeProvider>
   );

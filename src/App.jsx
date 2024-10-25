@@ -4,6 +4,7 @@ import { Example } from './pages/Example'
 import { PropsType } from './pages/PropsType'
 import { PropsDrilling } from './pages/PropsDrilling'
 import ContextExample from './pages/context'
+import ContextExam from './pages/ContextExample'
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
               <Route path='/example3' Component={PropsType}/>
               <Route path='/example4' Component={PropsDrilling}/>
               <Route path='/example5' Component={ContextExample}/>
+              <Route path='/example6' Component={ContextExam} />
       </Routes>
     </>
   )
