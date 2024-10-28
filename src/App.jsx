@@ -5,6 +5,7 @@ import { PropsType } from './pages/user/PropsType'
 import { PropsDrilling } from './pages/user/PropsDrilling'
 import ContextExample from './pages/user/Context'
 import ContextExam from './pages/user/ContextExample'
+import { TaskApp } from './pages/user/Crud_UseReducer'
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
               <Route path='/example4' Component={PropsDrilling}/>
               <Route path='/example5' Component={ContextExample}/>
               <Route path='/example6' Component={ContextExam} />
+              <Route path='/example7' Component={TaskApp}/>
       </Routes>
     </>
   )
